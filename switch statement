@@ -1,0 +1,19 @@
+import java.io.*;
+class Main
+{
+    public static void main(String arg[])
+    {
+        int number=22;
+        switch(number)
+        {
+            case 10: System.out.println("10");
+                     break;
+            case 22: System.out.println("22");
+                     break; 
+            case 30: System.out.println("30");
+                     break;
+            default: System.out.println("Not in 10,22 or 30");
+                     
+        }
+    }
+}
