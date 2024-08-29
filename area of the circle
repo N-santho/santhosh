@@ -1,0 +1,26 @@
+import java.io.*;
+import java.util.Scanner;
+import java.lang.*;
+class CircleArea
+{
+    double x,y;
+    double r;
+    double area()
+    {
+        return(22/7.0)*r*r;
+    }
+}
+class Main
+{
+    public static void main(String arg[]){
+        CircleArea CA = new CircleArea();
+        Scanner SC = new Scanner(System.in);
+        System.out.println("Enter center x,y values:");
+        CA.x=SC.nextInt();
+        CA.y=SC.nextInt();
+        CA.r=Math.sqrt(CA.x*CA.x)+(CA.y*CA.y);
+        System.out.println("Area of the circle is"+CA.area());
+    }
+}
+
+    
