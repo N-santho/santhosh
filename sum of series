@@ -1,0 +1,19 @@
+import java.io.*;
+import java.util.*;
+import java.lang.Math;
+class Main
+{
+    public static void main(String arg[])
+    {
+        Scanner obj = new Scanner(System.in);
+        System.out.println("Enter no of series:");
+        int n = obj.nextInt();
+        int i;
+        double sum=0;
+        for( i=1;i<=n;i++)
+        {
+            sum+=Math.pow(i,-1);
+        }
+        System.out.println("sum of Series is: "+sum);
+    }
+}
