@@ -1,0 +1,27 @@
+import java.io.*;
+import java.util.Scanner;
+import java.lang.*;
+class CircleArea
+{
+    double x,y;
+    double r;
+    double area()
+    {
+        return(22/7.0)*r*r;
+    }
+}
+class Main
+{
+    public static void main(String arg[]){
+        Scanner SC = new Scanner(System.in);
+        CA1=new CircleArea();
+        CircleArea CA2 = new CircleArea1();
+        System.out.println("Enter the radius of first circle:");
+        CA.r=SC.next double();
+         System.out.println("Enter the radius of first circle:");
+        
+        CA.y=SC.nextInt();
+        CA.r=Math.sqrt(CA.x*CA.x)+(CA.y*CA.y);
+        System.out.println("Area of the circle is"+CA.area());
+    }
+}
