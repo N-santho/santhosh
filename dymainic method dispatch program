@@ -1,0 +1,27 @@
+import java.io.*;
+class Main
+{
+    public static void main(String args[])
+    {
+        Bike B1=new Bike();
+        Honda H=new Honda();
+        H.run();
+        Bike B2=new Honda();
+        B2.run();
+    }
+    
+}
+class Bike 
+{
+    void run()
+    {
+        System.out.println("Bike is running");
+    }
+}
+class Honda extends Bike
+{
+    void run()
+    {
+        System.out.println("Honda is running");
+    }
+}
